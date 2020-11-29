@@ -3,7 +3,8 @@
 # [CES-26] Lista 7
 Resolução da lista 7 de CES-26: Desenvolvimento web\
 Aluno: Luís Eduardo Martins Lauro\
-ITA, COMP-21
+ITA, COMP-21\
+Código no snack: https://snack.expo.io/@luisedumlg/lista7
 
 # Primeira utilização
 ### Clone o repositório front-end
