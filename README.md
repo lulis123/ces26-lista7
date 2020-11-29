@@ -1,11 +1,25 @@
-# Sample Snack app
+<img alt="ITA" title="#front-vestibulinho-casd" src="https://logodownload.org/wp-content/uploads/2018/01/ita-logo.png" width="500px" />
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
+# [CES-26] Lista 7
+Resolução da lista 7 de CES-26: Desenvolvimento web\
+Aluno: Luís Eduardo Martins Lauro\
+ITA, COMP-21
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
+# Primeira utilização
+### Clone o repositório front-end
+$ git clone https://github.com/lulis123/ces26-lista6
+### Entre no repositório
+$ cd ces26-lista7
+### Instale o módulo
+$ npm install
+### Rodar a API
+$ cd src\
+$ npm start
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+# Padrão de pastas
+- Public: pasta que contém tudo que é acessado pelo client-side da aplicação: index.html e a aplicação AJAX no script.js (front-end).
+- src: pasta onde fica o código em React que será renderizado no index.html
+  - components: pasta onde estão as os componentes para a calculadora (calculator display e calculator button)
+  - actions.js: arquivo com a definição das actions para o redux
+  - reducers.js: arquivo com os reducers para o o redux
+  - App.js: aplciatiov principal da calculadora, que é renderizado dentro do index.html
