@@ -14,7 +14,6 @@ $ cd ces26-lista7
 ### Instale o módulo
 $ npm install
 ### Rodar a API
-$ cd src\
 $ npm start
 
 # Padrão de pastas
